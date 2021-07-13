@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ComsosTalk</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="cosmos.png" type="image/png" sizes="16x16">
+</head>
+<body>
+   
+    <div id="container">
+        <img id="banner-image" src="cosmos.png" alt="cosmoshero" />
+        <h1 id ="main-header" style="text-align: center;">Cosmos Talk</h1>
+    <input type="textarea" placeholder="Your thoughts..." id="txt-input" /> 
+    <div id="errorLabel"></div>
+    <br>
+    <div>
+        <span><select id="select-heros" name="select-heros">
+            <option value="">select your hero</option>
+            <option value="minion">minion</option>
+            <option value="yoda">yoda</option>
+            <option value="pirate">pirate</option>
+            <option value="groot">groot</option>
+            <option value="mandalorian">mandalorian</option>
+          </select></span> 
+        <span><button id="btn-convert">CONVERT</button></span>
+    
+    </div>
+    
+    <br><br><br>
+    <div  id="txt-output"> Cosmos thoughts...</div>
+    </div>
+    <script src="index.js" type="text/javascript"></script>
+</body>
+</html>
